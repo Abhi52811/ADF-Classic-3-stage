@@ -1,0 +1,25 @@
+{
+	"name": "demoTrigger",
+	"properties": {
+		"annotations": [],
+		"runtimeState": "Started",
+		"pipelines": [
+			{
+				"pipelineReference": {
+					"referenceName": "Databricks notebook",
+					"type": "PipelineReference"
+				}
+			}
+		],
+		"type": "ScheduleTrigger",
+		"typeProperties": {
+			"recurrence": {
+				"frequency": "Hour",
+				"interval": 24,
+				"startTime": "2025-01-09T12:00:00",
+				"endTime": "2025-01-12T08:37:00",
+				"timeZone": "India Standard Time"
+			}
+		}
+	}
+}
